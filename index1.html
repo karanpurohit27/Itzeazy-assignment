@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+      .btn-danger{
+        margin-left: 17cm;
+        margin-top: 1cm;
+      }
+      #dev{
+        margin-top: 1cm;
+        margin-left: 11cm;
+        font-size: 45px;
+        
+      }
+      #amm{
+        
+        margin-left:14cm;
+        font-size: 35px;
+        font-weight: 900;
+
+        
+      }
+      #imm{
+        margin-left: 14cm;
+        font-size: 15px;
+      }
+      .form-select {   
+       display: block;
+    width: 20%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #e74e1f;
+    border-radius: .25rem;
+    transition: border-color  red ,box-shadow red ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 1.5cm;
+    margin-left: 14cm;
+
+    background: #fff  no-repeat 98% center;
+
+      }
+      .progress {
+    display: flex;
+    height: 5px;
+    overflow: hidden;
+    font-size: 0.5cm;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    width: 25cm;
+    margin-left: 5cm;
+    margin-top: 1cm;
+ 
+}
+
+    </style>
+
+  </head>
+<body>
+  <div class="wsb-image-inner "><div class="img"><a href="https://www.itzeazy.com/" rel=""><img src="//nebula.wsimg.com/0edb2dd9e19abe3982f3bd7f99d5ea4b?AccessKeyId=D1A6AE6C2626017F30AB&amp;disposition=0&amp;alloworigin=1" alt="Itzeazy logo" style="vertical-align:middle;width:100px;height:50px;"></a></div></div> </div>
+  <strong id="dev">DRIVING LISCENCE RENEWEL</strong>
+
+  <strong id="amm" style="color: grey;">Lets Get Started</strong> 
+  <p id="imm">Add your details (as per your registered records)</p>
+
+   
+  <div class="colorSel">
+    <select required class="form-select form-select-sm" aria-label=".form-select-sm example">
+        <option hidden selected>Issued Year of Liscence</option>
+        <option value="2011">2011</option>
+      <option value="2012">2012</option>
+      <option value="2013">2013</option>
+      <option value="2014">2014</option>
+      <option value="2015">2015</option>
+      <option value="2016">2016</option>
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+    </select>
+  </div>
+  <div class="colorSel1">
+    <select required class="form-select form-select-sm" aria-label=".form-select-sm example">      <option value="2021">2021</option>
+      <option  hidden selected>Expiring Year of Liscence</option>
+        <option value="2022">2022</option>
+      <option value="2023">2023</option>
+      <option value="2024">2024</option>
+      <option value="2025">2025</option>
+      <option value="2026">2026</option>
+      <option value="2027">2027</option>
+      <option value="2028">2028</option>
+      <option value="2029">2029</option>
+      <option value="2030">2030</option>
+      <option value="2031">2031</option>
+    </select>
+
+  </div>
+  <div class="colorSel2">
+    <select required class="form-select form-select-sm" aria-label=".form-select-sm example" oninput="location.href='index2.html'">     
+      <option hidden selected value="Current Place of D.L." >Current Place of D.L.</option>
+       <option onclick ="location.href='index2.html'" value="Delhi">Delhi</option>
+      <option value="Benglore">Benglore</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Faridabad">Faridabad</option>
+      <option value="Ghaziabad">Ghaziabad</option>
+      <option value="Gurugram">Gurugram</option>
+      <option value="Hydreabad">Hydreabad</option>
+      <option value="Jamshedpur">Jamshedpur</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Noida">Noida</option>
+      <option value="Pune">Pune</option>
+      <option value="Ranchi">Ranchi</option>
+    </select>
+    <button type="button" class="btn btn-danger" onclick="location.href='index.html' ">Back</button>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+        aria-valuemin="0" aria-valuemax="100" style="width:50%;background-color: #212529;">
+          
+        </div>
+      </div>
+  </div>
+
+  <script src="apna.js"></script>
+</body>
+</html>
